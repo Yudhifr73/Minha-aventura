@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;600&display=swap" rel="stylesheet">
+    <title>Doctor Who: Jornada no Tempo</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+            <img src="img/tardis.gif" alt="A TARDIS materializando no meio do espaço">
+            <p>Você se encontra em uma biblioteca intergaláctica quando ouve o som familiar: o barulho da TARDIS se materializando. O Doutor aparece e te oferece a chance de explorar um mistério no tempo. Para onde você vai?</p>
+            <button class="btn-proximo" data-proximo="1">Explorar Londres Vitoriana</button>
+            <button class="btn-proximo" data-proximo="2">Ir para o planeta Gallifrey</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Em Londres Vitoriana, algo estranho está acontecendo com as estátuas de anjos. O Doutor parece preocupado.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar os anjos chorões</button>
+            <button class="btn-proximo" data-proximo="4">Voltar para a TARDIS e fugir</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Em Gallifrey, a capital dos Senhores do Tempo, algo sombrio está se revelando nas sombras da cúpula. Uma antiga profecia fala de uma guerra no tempo.</p>
+            <button class="btn-proximo" data-proximo="5">Confrontar o Alto Conselho</button>
+            <button class="btn-proximo" data-proximo="6">Explorar os desertos de Gallifrey</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Os anjos chorões estão por toda parte. Não pisque! Um anjo está se aproximando rapidamente.</p>
+            <button class="btn-proximo" data-proximo="7">Correr para a segurança</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/tardis_volta.gif" alt="A TARDIS desaparecendo enquanto foge">
+            <p>Você decide que a situação é perigosa demais e foge para a TARDIS. O Doutor, visivelmente decepcionado, parte para outra aventura, mas você sempre se pergunta o que teria acontecido com os anjos.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O Alto Conselho está discutindo em segredo uma arma capaz de reescrever o tempo. O Doutor teme as consequências.</p>
+            <button class="btn-proximo" data-proximo="7">Enfrentar o Alto Conselho</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>No deserto de Gallifrey, você encontra uma antiga tumba. Lá dentro, segredos sobre a guerra no tempo estão escondidos.</p>
+            <button class="btn-proximo" data-proximo="8">Explorar a tumba</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você consegue escapar, mas a aventura está longe de acabar. O Doutor já está pensando na próxima parada, e você tem a chance de continuar a jornada com ele.</p>
+            <button class="btn-proximo" data-proximo="0">Continuar a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/war_time.gif" alt="Uma visão épica da Guerra do Tempo em Gallifrey">
+            <p>Dentro da tumba, você descobre um antigo artefato dos Senhores do Tempo. Ele contém o poder de mudar o curso da história, mas deve ser usado com sabedoria.</p>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
